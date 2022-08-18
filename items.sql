@@ -1,0 +1,2 @@
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('pocket_watch', 'Pocket Watch', 10, 1, 'item_standard', 1);
+INSERT INTO `items`(`item`, `label`, `limit`, `can_remove`, `type`, `usable`) VALUES ('pocket_compass', 'Pocket Compass', 10, 1, 'item_standard', 1);
