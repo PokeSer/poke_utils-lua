@@ -1,5 +1,6 @@
 local function checkVersion(err, responseText, headers)
     local currentVersion = LoadResourceFile(GetCurrentResourceName(), 'version')
+    if not currentVersion then return end
     local githubUrl = 'https://github.com/PokeSer/poke_utils-lua'
 
     if currentVersion ~= responseText and tonumber(currentVersion) < tonumber(responseText) then
